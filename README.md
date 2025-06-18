@@ -46,7 +46,7 @@ untuk ucs
 python3 ucs.py
 ```
 <br>
-untuk ida*
+untuk ida*<br>
 ```
 python ida.py
 ```
