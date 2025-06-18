@@ -30,9 +30,8 @@ Algoritmanya secara ringkas adalah sbb:
 2. Potonglah (prune) semua simpul dimana f(simpul) > f(limit). Sementara simpul yang f(simpul) < f(limit) itu yang akan diekspansi.
 3. Jika tidak ada simpul f(simpul) < f(limit) pilih simpul dengan f terkecil di daftar prune
 4. f(limit) berikutnya adalah nilai minimum simpul yang ada di Prune. Ekspansi simpul tersebut.
-5. Gunakan pencarian DFS untuk simpul yang akan dikunjungi
+5. Gunakan pencarian DFS untuk simpul yang akan dikunjungi<br>
 
-<br>
 ![Image](https://github.com/user-attachments/assets/07de5af9-9efd-4147-954a-efbea0ff462c)
 
 - Menggabungkan kekuatan **DFS** dan **heuristik A\***.
