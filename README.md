@@ -4,7 +4,7 @@ Repositori ini berisi implementasi dua algoritma pencarian jalur populer dalam t
 
 ## 📁 Struktur File
 
-- `ucs.py` – Implementasi algoritma **Uniform Cost Search** menggunakan Python dan `PriorityQueue`.
+- `ucs.py` – Implementasi algoritma **Uniform Cost Search** menggunakan `PriorityQueue`.
 - `ida.py` – Implementasi algoritma **IDA\*** lengkap dengan heuristik, menggunakan pendekatan rekursif dan iterative thresholding.
 
 ---
@@ -12,6 +12,10 @@ Repositori ini berisi implementasi dua algoritma pencarian jalur populer dalam t
 ## 🔧 Fitur
 
 ### ✅ Uniform Cost Search (UCS)
+Uniform Cost Search adalah salah satu algoritma pencarian buta (Blind Search). Konsepnya hampir sama dengan BFS, bedanya adalah bahwa BFS menggunakan urutan level yang paling rendah sampai yang paling tinggi, sedangkan UCS menggunakan urutan biaya dari yang paling kecil sampai yang terbesar. UCS berusaha menemukan solusi dengan total biaya terendah yang dihitung berdasarkan biaya dari simpul asal menuju ke simpul tujuan. Misal kita punya contoh
+![image](https://github.com/user-attachments/assets/6f303160-e45a-4b7a-a746-20ba01ec4433)
+
+
 - Mencari jalur terpendek berdasarkan **biaya aktual** dari titik awal ke titik tujuan.
 - Cocok digunakan saat **semua biaya antar simpul diketahui dan tidak ada heuristik**.
 
