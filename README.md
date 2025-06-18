@@ -12,7 +12,7 @@ Repositori ini berisi implementasi dua algoritma pencarian jalur populer dalam t
 ## 🔧 Fitur
 
 ### ✅ Uniform Cost Search (UCS)
-Uniform Cost Search adalah salah satu algoritma pencarian buta (Blind Search). Konsepnya hampir sama dengan BFS, bedanya adalah bahwa BFS menggunakan urutan level yang paling rendah sampai yang paling tinggi, sedangkan UCS menggunakan urutan biaya dari yang paling kecil sampai yang terbesar. UCS berusaha menemukan solusi dengan total biaya terendah yang dihitung berdasarkan biaya dari simpul asal menuju ke simpul tujuan. Misal kita punya contoh
+Uniform Cost Search adalah salah satu algoritma pencarian buta (Blind Search). Konsepnya hampir sama dengan BFS, bedanya adalah bahwa BFS menggunakan urutan level yang paling rendah sampai yang paling tinggi, sedangkan UCS menggunakan urutan biaya dari yang paling kecil sampai yang terbesar. UCS berusaha menemukan solusi dengan total biaya terendah yang dihitung berdasarkan biaya dari simpul asal menuju ke simpul tujuan. Misal kita punya contoh<br>
 ![image](https://github.com/user-attachments/assets/6f303160-e45a-4b7a-a746-20ba01ec4433)
 
 
