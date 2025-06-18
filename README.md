@@ -51,3 +51,14 @@ untuk ida*<br>
 ```
 python ida.py
 ```
+
+## Contoh Output
+```bs
+# UCS
+S -> A -> B -> G
+Total cost: 11
+```
+```
+# IDA*
+Path S -> B -> H -> G -> E
+```
