@@ -22,6 +22,21 @@ Uniform Cost Search adalah salah satu algoritma pencarian buta (Blind Search). K
 - Goal Check = Setelah memperluas sebuah simpul, algoritma akan memeriksa apakah simpul tersebut telah mencapai simpul tujuan. Jika tujuan tercapai, algoritma akan menampilkan total biaya untuk mencapai simpul ini dan jalur yang diambil. Tapi jika buka simpul tujuan maka algoritma akan melakukan pengulangan hingga antrian prioritas kosong atau tujuan tercapai.
 
 ### ✅ Iterative Deepening A* (IDA*)
+Itterative deepening A* Search atau IDA* serupa dengan Iterative Deepening Depth First Search (IDDFS), dengan modifikasi berupa batas kedalaman l pada IDDFS digantikan dengan batas nilai fungsi total biaya f(x)
+<br>
+
+Algoritmanya secara ringkas adalah sbb:
+1. Mulailah dengan f(limit) = ℎ(start)
+2. Potonglah (prune) semua simpul dimana f(simpul) > f(limit). Sementara simpul yang f(simpul) < f(limit) itu yang akan diekspansi.
+3. Jika tidak ada simpul f(simpul) < f(limit) pilih simpul dengan f terkecil di daftar prune
+4. f(limit) berikutnya adalah nilai minimum simpul yang ada di Prune. Ekspansi simpul tersebut.
+5. Gunakan pencarian DFS untuk simpul yang akan dikunjungi
+
+<br>
+![image](https://github.com/user-attachments/assets/e2a804e8-132f-4894-9c1a-67ad68b241f1)
+<br>
+
+
 - Menggabungkan kekuatan **DFS** dan **heuristik A\***.
 - Cocok untuk graf yang besar atau ketika memori terbatas.
 - Menggunakan pendekatan iteratif berdasarkan threshold dari fungsi `f(n) = g(n) + h(n)`.
