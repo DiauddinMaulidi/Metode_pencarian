@@ -33,9 +33,7 @@ Algoritmanya secara ringkas adalah sbb:
 5. Gunakan pencarian DFS untuk simpul yang akan dikunjungi
 
 <br>
-![image](https://github.com/user-attachments/assets/e2a804e8-132f-4894-9c1a-67ad68b241f1)
-<br>
-
+![image](https://github.com/user-attachments/assets/2a267db3-6c43-4ed8-b731-87bfb67c759e)
 
 - Menggabungkan kekuatan **DFS** dan **heuristik A\***.
 - Cocok untuk graf yang besar atau ketika memori terbatas.
