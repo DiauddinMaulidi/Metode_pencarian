@@ -41,8 +41,12 @@ Algoritmanya secara ringkas adalah sbb:
 ---
 
 ## 🚀 Cara Menjalankan
-
-1. **Clone repositori:**
-   ```bash
-   git clone https://github.com/username/graph-search-algorithms.git
-   cd graph-search-algorithms
+untuk ucs
+```
+python3 ucs.py
+```
+<br>
+untuk ida*
+```
+python ida.py
+```
